@@ -1,0 +1,24 @@
+{
+  "name": "svelte-reducer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kowsen/svelte-reducer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kowsen/svelte-reducer/issues"
+  },
+  "homepage": "https://github.com/kowsen/svelte-reducer#readme",
+  "dependencies": {
+    "svelte": "^3.24.1",
+    "ts-action": "^11.0.0"
+  }
+}
