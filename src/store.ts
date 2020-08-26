@@ -1,6 +1,6 @@
-import { Action } from 'ts-action';
+import type { Action } from 'ts-action';
 
-import { SvelteReducer } from './reducer';
+import type { SvelteReducer } from './reducer';
 
 export class Store {
   reducers: SvelteReducer[] = [];
@@ -10,8 +10,8 @@ export class Store {
   }
 
   dispatch(action: Action) {
-  	for (const reducer of this.reducers) {
+    for (const reducer of this.reducers) {
       reducer.reduce(action);
-  	}
+    }
   }
 }
